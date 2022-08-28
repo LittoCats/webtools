@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Tools</title>
+    <script type="module">
+        import Main from "./index.tsx";
+        import { render } from "react-dom";
+
+        window.addEventListener('load', ()=> {
+            render(<Main/>, document.getElementById('main'))
+        }, true);
+    </script>
+    <style>@import './index.scss';</style>
+</head>
+<body>
+<div id="main"></div>
+</body>
+</html>
+

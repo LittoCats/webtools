@@ -1,0 +1,43 @@
+{
+  "name": "webtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -d",
+    "dev": "parcel serve index.html"
+  },
+  "author": "程巍巍",
+  "license": "ISC",
+  "dependencies": {
+    "immutability-helper": "^3.1.1"
+  },
+  "peerDependencies": {
+    "react": ">= 16.0.0",
+    "react-dom": ">= 16.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "@types/react": ">= 16.0.0",
+    "@types/react-dom": ">= 16.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "parcel": "^2.7.0",
+    "preact": "^10.10.6",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10",
+    "typescript": "^4.7.4"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react/jsx-runtime": "preact/jsx-runtime",
+    "preact/jsx-dev-runtime": "preact/jsx-runtime"
+  }
+}
